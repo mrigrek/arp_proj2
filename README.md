@@ -33,23 +33,28 @@ This app has several functions:
 This is a link to [Google](https://google.pl).
 
 
-```{r, label='my-chunk'}
-```
 
-
-```{r}
-#| my-chunk, echo = FALSE, fig.width = 10,
-#| fig.cap = "This is a long long
-#|   long long caption."
-
+```r
 plot(cars)
 ```
 
+![](README_files/figure-html/my-chunk-1.png)<!-- -->
 
 
-```{r, test-plot}
+![This is a long long
+  long long caption.](README_files/figure-html/my-chunk-1.png)
+
+
+
+
+```r
 plot(1)         # high-level plot
 abline(0, 1)    # low-level change
+```
+
+![](README_files/figure-html/test-plot-1.png)<!-- -->
+
+```r
 plot(rnorm(10)) # high-level plot
 # many low-level changes in a loop (a single R expression)
 for(i in 1:10) {
@@ -57,12 +62,17 @@ for(i in 1:10) {
 }
 ```
 
+![](README_files/figure-html/test-plot-2.png)<!-- -->
+
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
 
 
-```{r, results='asis'}
+
+```r
 cat("I'm raw **Markdown** content.\n")
 ```
+
+I'm raw **Markdown** content.
