@@ -1,9 +1,13 @@
 Package: arpproj2
 Type: Package
-Title: What the package does (short line)
+Title: Just Test project
 Version: 1.0
 Date: 2024-04-16
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: ysyryanyy
+Maintainer: ysyryanyy <yourfault@somewhere.net>
+Description: The Proj2
+License: MIT
+RoxygenNote: 7.3.1
+Encoding: UTF-8
+LazyData: True
+Imports:  digest
